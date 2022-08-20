@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+*{
+    
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Cormorant SC', serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    width:100%;
+    background-color: #f1f5f8;
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.6);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+nav h4{
+    font-size: 20px;
+margin-left: 200px;
+color:black;
+}
+
+nav .nav-links{
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+
+}
+
+nav .nav-links li{
+    
+    font-size: 20px;
+   list-style: none;
+}
+
+nav .nav-links li a{
+    color: black;
+    text-decoration: none;
+    
+    padding: 15px;
+}
+
+main{
+    width:100vw;
+    height: 100vh;
+    position: relative;
+}
+
+main h1{
+    margin-left:37%;
+    transform: translateX(-15%);
+    margin-top:150px;
+    font-size: 50px;
+}
+
+main button{
+    margin-left:50%;
+    transform: translateX(-15%);
+    margin-top: 25px;
+    height: 50px;
+    width:100px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
